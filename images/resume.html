@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom Colors */
+        body {
+            background-color: #f0f4f8; /* Soft light background */
+        }
+        .header {
+            color: #2a4365; /* Dark blue for header text */
+        }
+        .sub-header {
+            color: #4a5568; /* Slightly lighter dark grey-blue */
+        }
+        .contact-link {
+            color: #3182ce; /* Blue for contact links */
+        }
+        .contact-link:hover {
+            color: #2b6cb0; /* Darker blue on hover */
+        }
+        .section-heading {
+            color: #2c5282; /* Deep blue for section headings */
+        }
+        .experience-title {
+            color: #2a4365; /* Dark blue for job titles */
+        }
+        .education-title {
+            color: #2a4365; /* Dark blue for education titles */
+        }
+        .text-muted {
+            color: #718096; /* Muted grey for job details */
+        }
+        .skills-section h3 {
+            color: #2c5282; /* Skill category headings */
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- Container -->
+    <div class="max-w-4xl mx-auto p-6 bg-white shadow-lg mt-10 rounded-lg">
+        <!-- Header -->
+        <header class="text-center">
+            <h1 class="text-4xl font-bold header">ARUN R</h1>
+            <p class="text-xl sub-header">Full Stack Developer</p>
+            <div class="mt-4">
+                <a href="mailto:arunarunbcayear@gmail.com" class="contact-link hover:text-blue-600">
+                    arunarunbcayear@gmail.com
+                </a>
+                |
+                <a href="tel:+9342459302" class="contact-link hover:text-blue-600">
+                    +9342459302
+                </a>
+                |
+                <a href="https://github.com/ARUNBCA009" class="contact-link hover:text-blue-600">
+                    https://github.com/ARUNBCA009
+                </a>
+            </div>
+        </header>
+
+        <!-- Summary -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-heading">objective</h2>
+            <p class="mt-2 text-muted">
+                Full Stack Developer with over 5 years of experience in web and mobile development,
+                skilled in modern JavaScript frameworks, and passionate about creating performant and scalable
+                applications.
+            </p>
+        </section>
+
+        <!-- Experience -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-heading">Experience</h2>
+
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold experience-title">Senior Full Stack Developer</h3>
+                <p class="text-muted">Collage Event | Jan 2021 - Present</p>
+                <ul class="list-disc list-inside mt-2 text-muted">
+                    <li>Led a team of 6 developers in building a scalable e-commerce platform with React, Node.js, and MongoDB.</li>
+                    <li>Optimized performance by improving API response times by 40% using caching and database optimization.</li>
+                    <li>Implemented CI/CD pipelines using Jenkins and Docker for seamless deployment.</li>
+                </ul>
+            </div>
+
+            <div class="mt-6">
+                <h3 class="text-xl font-semibold experience-title">Frontend Developer</h3>
+                <p class="text-muted">XYZ Solutions | May 2018 - Dec 2020</p>
+                <ul class="list-disc list-inside mt-2 text-muted">
+                    <li>Developed responsive web applications using React and Redux.</li>
+                    <li>Worked closely with UI/UX designers to create engaging user interfaces.</li>
+                    <li>Improved page load speeds by 30% through code-splitting and lazy loading.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-heading">Education</h2>
+
+            <div class="mt-4">
+                <h3 class="text-xl font-semibold education-title">Master of Computer Application</h3>
+                <p class="text-muted">Rvs College Of Arts AND Science | Graduated May 2026</p>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-heading">Skills</h2>
+
+            <div class="grid grid-cols-2 gap-4 mt-4 skills-section">
+                <div class="text-muted">
+                    <h3 class="text-xl font-semibold">Frontend</h3>
+                    <ul class="list-disc list-inside">
+                        <li>React</li>
+                        <li>Vue.js</li>
+                        <li>HTML/CSS</li>
+                        <li>JavaScript (ES6+)</li>
+                    </ul>
+                </div>
+                <div class="text-muted">
+                    <h3 class="text-xl font-semibold">Backend</h3>
+                    <ul class="list-disc list-inside">
+                        <li>Node.js</li>
+                        <li>Express.js</li>
+                        <li>MongoDB</li>
+                        <li>REST APIs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="mt-8">
+            <h2 class="text-2xl font-semibold section-heading">Contact Information</h2>
+            <div class="mt-4">
+                <p class="text-muted">Phone: 9342459302</p>
+                <p class="text-muted">Email: <a href="mailto:arunarunbcayear@gmail.com" class="contact-link hover:text-blue-600">arunarunbcayear@gmail.com</a></p>
+                <p class="text-muted">GitHub: <a href="https://github.com/ARUNBCA009" class="contact-link hover:text-blue-600">github.com/ARUNBCA009</a></p>
+                <p class="text-muted">LinkedIn: <a href="https://www.linkedin.com/in/arun-r-525343280" class="contact-link hover:text-blue-600">linkedin.com/in/arun-r-525343280</a></p>
+            </div>
+        </section>
+    </div>
+
+</body>
+</html>

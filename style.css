@@ -1,0 +1,326 @@
+/* Import Google Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar Styles */
+nav {
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 20px !important ;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.nav-link:hover {
+    
+      background-color: silver;
+      color: black;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url('images/BG.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    padding: 0 15px;
+}
+
+#home .home-content p {
+    font-size: 2.5rem;
+}
+
+#home .home-content p span {
+    color: yellow;
+}
+
+#home .social-icons {
+    margin-top: 20px;
+}
+
+#home .social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+#home .social-icons a:hover {
+    color: yellow;
+}
+
+/* About Section */
+.about {
+    padding: 60px 15px;
+    background-color: #f9f9f9;
+}
+
+.about-img img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+}
+
+.about-content {
+    margin-top: 30px;
+}
+
+.about-content .heading {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-content .heading span {
+    color: yellow;
+}
+
+.about-content h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.resume-download a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: white;
+    background-color: #ffcc00;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-download a:hover {
+    background-color: #e6b800;
+}
+
+/* Skills Section */
+#skills {
+    padding: 60px 15px;
+    background-color: #e5e5e5;
+}
+
+#skills label {
+    font-size: 1rem;
+    color: #333;
+    transition: all 0.3s ease; /* Transition for smooth hover effect */
+}
+
+#skills label:hover {
+    font-size: 1.2rem; /* Increases font size on hover */
+    color: #007bff; /* Changes color on hover */
+}
+
+#skills h1 {
+    margin-bottom: 40px;
+}
+
+/* Progress Bar Container */
+.progress {
+    height: 25px;
+    margin-bottom: 20px;
+    background-color: #d3d3d3;
+    border-radius: 50px; /* Smooth edges for the progress bar */
+    overflow: hidden; /* Ensures the bar remains within the container */
+    position: relative;
+}
+
+/* Default Progress Bar State */
+.progress-bar {
+    font-size: 0.9rem;
+    height: 100%;
+    background-color: #007bff;
+    text-align: center;
+    color: white;
+    line-height: 25px; /* Center the text vertically */
+    border-radius: 50px;
+    width: 0; /* Initial width */
+    transition: width 2s ease-in-out; /* Smooth transition for the progress */
+}
+
+/* Hover to Activate the Progress Bar */
+.progress:hover .progress-bar {
+    width: 100%; /* Fills the bar on hover */
+}
+
+
+/* Portfolio Section */
+#portfolio {
+    padding: 60px 15px;
+}
+
+#portfolio h1 {
+    margin-bottom: 40px;
+}
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 20px;
+}
+
+.carousel-caption a {
+    margin-top: 10px;
+}
+
+
+/* Education Section Styles */
+.education-section {
+    background-color: #f8f9fa; /* Light background */
+    background-image: url(./images/eduback.jpg);
+}
+#education h2{
+      color: #e5e5e5 !important;
+}
+
+.education-card {
+    background-color: #fff; /* White card background */
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Shadow on hover */
+}
+
+.education-card h3 {
+    font-size: 1.5rem;
+    color: #333; /* Darker heading */
+}
+
+.education-card .school {
+    font-style: italic;
+    color: #6c757d; /* Muted color for school */
+}
+
+.education-card .years {
+    font-weight: bold;
+    color: #ffba08; /* Use an accent color for years */
+}
+
+.education-card .description {
+    color: #555; /* Subtle color for descriptions */
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+/* Adjust responsiveness for mobile */
+@media (max-width: 768px) {
+    .education-card {
+        margin-bottom: 20px;
+    }
+}
+
+
+/* YouTube Section */
+#youtube {
+    padding: 60px 15px;
+}
+
+
+#youtube h1 {
+    margin-bottom: 40px;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.card .ratio {
+    margin-bottom: 20px;
+}
+
+.card h4 {
+    margin-top: 20px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 60px 15px;
+    background-color: #f8f9fa;
+}
+
+#contact h1 {
+    margin-bottom: 40px;
+}
+
+#contact .form-control {
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+#contact .btn-primary {
+    padding: 12px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    #home .home-content p {
+        font-size: 2rem;
+    }
+
+    .about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        margin-top: 20px;
+    }
+
+    #skills .progress {
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #home .home-content p {
+        font-size: 1.5rem;
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.9rem;
+    }
+}
+footer {
+    background-color: black; /* Light Salmon */
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white; /* Change text color for better contrast */
+}
